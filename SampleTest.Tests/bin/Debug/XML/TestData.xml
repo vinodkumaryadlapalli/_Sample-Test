@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BookTests>
+	<BookTest>
+		<publishedDate>2012/09</publishedDate>
+		<ExpectedResult>True</ExpectedResult>
+	</BookTest>
+	<BookTest>
+		<publishedDate>1930/01</publishedDate>
+		<ExpectedResult>False</ExpectedResult>
+	</BookTest>
+</BookTests>
