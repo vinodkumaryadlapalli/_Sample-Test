@@ -28,6 +28,6 @@ namespace Test_2022F.Models
         // TestNote: Using IValidatableObject OR a ValidationAttribute, validate the ISBN property is 9, 10 or 13 digits.
         [ValidISBN]
         public string ISBN { get; set; }
-        public ApplicationUser Owner { get; set; }
+       
     }
 }
